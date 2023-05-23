@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Routes,Route} from "react-router-dom";
-import Create from './components/Create'
+import Create from './components/create'
 import Read from './components/Read';
 
 import Update from './components/Update';
