@@ -23,6 +23,7 @@ const submission = (e) => {
 
 const updateData=async()=>{
 
+console.log()
 await axios.put(URL+id,{
     firstName,
     lastName

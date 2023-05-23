@@ -35,7 +35,7 @@ const Read = () => {
 
     const deleteUSers = async (id) => {
     
-
+console.log(id)
         await axios.delete(URL + id)
         getApiData()
     };
